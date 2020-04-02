@@ -1,0 +1,17 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "name": "background-generator",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
